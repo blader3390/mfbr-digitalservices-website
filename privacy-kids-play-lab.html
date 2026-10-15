@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy extension for Kids Play Lab, a children's mini-game app published by MFBR Digital Services.">
+  <title>Kids Play Lab Privacy Extension — MFBR Digital Services</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">MF</span>
+        <div>
+          <p class="brand-name">MFBR Digital Services</p>
+          <p class="brand-tagline">Web &amp; Mobile Development</p>
+        </div>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="mailto:firdausrasli90@gmail.com">Get in Touch</a>
+    </div>
+  </header>
+
+  <main id="top" class="section">
+    <article class="container legal-article">
+      <p class="eyebrow">Kids Play Lab</p>
+      <h1>Privacy Policy Extension</h1>
+      <p class="legal-updated">Effective date: 15 October 2026. Last updated: 15 October 2026.</p>
+
+      <aside class="legal-notice">
+        <p>
+          This page extends the
+          <a href="privacy.html">MFBR Digital Services Privacy Policy</a>.
+          That policy is the main notice: who we are, how this website works, your rights under the
+          Malaysian Personal Data Protection Act 2010, and how to contact us.
+          This extension adds what <strong>Kids Play Lab</strong> does on Android and iOS.
+          Where the two differ, this extension applies to the app.
+        </p>
+      </aside>
+
+      <h2>Who this app is for</h2>
+      <p>
+        Play is designed for children aged 5 and above. A <strong>parent or guardian</strong> owns the
+        device settings, any store purchase, and any cloud account. Children do not create accounts,
+        chat, browse the open web, or use social features inside the app. Up to four players can be
+        kept on one device. The parent chooses each player nickname.
+      </p>
+
+      <h2>Information the app handles</h2>
+      <h3>On the device</h3>
+      <p>
+        The app stores a save file on the device so play can continue without an account. That file can include:
+      </p>
+      <ul>
+        <li>Player nicknames and which player is active.</li>
+        <li>Stars, level progress, stickers, daily challenges, and weekly play time.</li>
+        <li>Sound mute, language, session timer, and difficulty lock.</li>
+        <li>An optional parent PIN, if the parent sets one.</li>
+        <li>Whether the parent has turned cloud save off.</li>
+      </ul>
+      <p>
+        This stays on the device unless the parent turns on cloud save. Uninstalling the app removes the local file.
+      </p>
+
+      <h3>Optional parent cloud save</h3>
+      <p>
+        Cloud save is optional. A parent can play entirely on the device. If a parent signs in, we use:
+      </p>
+      <ul>
+        <li>
+          <strong>Google Sign-In</strong>, <strong>Sign in with Apple</strong>, or
+          <strong>Google Play Games</strong> (Android), processed by Firebase Authentication.
+          We receive identifiers the provider supplies, such as an email address, a display name,
+          and a user ID. Apple may hide the email address.
+        </li>
+        <li>
+          A copy of the save file in Cloud Firestore, under that parent user ID, including the items
+          listed above (nicknames, progress, settings, and the parent PIN if one is set), plus the
+          parent’s email and display name.
+        </li>
+      </ul>
+      <p>We do not ask children for a photo, location, contacts, or microphone access.</p>
+
+      <h3>Spoken prompts</h3>
+      <p>
+        The app can speak round prompts with the device’s text-to-speech voice so a child who cannot
+        read can still play. We do not record the child’s voice, and we do not send those prompts to our servers.
+      </p>
+
+      <h3>Typefaces</h3>
+      <p>
+        The app may download typefaces from Google Fonts so menus render in the chosen language.
+        That request can include the device IP address. It does not include the parent account or the save file.
+      </p>
+
+      <h2>How we use this information</h2>
+      <ul>
+        <li>To run the games and remember progress on the device.</li>
+        <li>To let a parent restore the same save on another device, if they choose cloud save.</li>
+        <li>To apply parent settings: mute, PIN, session timer, difficulty lock, language, sign out, and account deletion.</li>
+        <li>To operate and secure sign-in.</li>
+      </ul>
+      <p>
+        We do not sell personal information. We do not use play data or account data for behavioural advertising.
+        We do not use an advertising identifier for this app.
+      </p>
+
+      <h2>Advertising and payments</h2>
+      <p>
+        Kids Play Lab is a <strong>paid app</strong> with <strong>no advertisements</strong> and no in-app
+        advertising SDK. Apple or Google processes the download payment. We do not receive the full payment card number.
+      </p>
+
+      <h2>Children’s privacy</h2>
+      <p>
+        We treat the save file as family play data linked to a parent. Collection is limited to what the
+        games and parent settings need. The main
+        <a href="privacy.html">Privacy Policy</a>
+        describes access, correction, and consent rights. For this app, a parent can also delete cloud data
+        from Parent settings, or email us and we will help. The design follows COPPA-style limits:
+        a parent holds the account, collection stays small, and there are no behavioural ads.
+      </p>
+
+      <h2>Service providers for this app</h2>
+      <p>
+        In addition to the providers named in the main policy, this app uses Google Firebase
+        (Authentication and Cloud Firestore), Google Sign-In, Google Play Games, Sign in with Apple,
+        and Google Fonts. They process data under their own notices. Firebase acts on our instructions
+        for the parent account and save file.
+      </p>
+
+      <h2>Retention and deletion</h2>
+      <p>
+        The on-device save lasts until the parent clears app data or uninstalls the app.
+        Cloud data lasts while the parent account exists. Delete account in Parent settings removes the
+        Firebase Authentication user and the related Firestore documents. Backup copies can take a short
+        time to expire. Signing out stops further cloud updates; it does not by itself delete the cloud copy.
+      </p>
+
+      <h2>International processing</h2>
+      <p>
+        Firebase may store the parent account and save file outside Malaysia, in the Google Cloud region
+        selected for the Firebase project. Creating a cloud save means that copy may leave Malaysia.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Requests about this app go to the contact details in the
+        <a href="privacy.html">main Privacy Policy</a>.
+        Email: <a href="mailto:firdausrasli90@gmail.com">firdausrasli90@gmail.com</a>.
+      </p>
+      <p>
+        <a href="terms-kids-play-lab.html">Terms of Use for Kids Play Lab</a>
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-name">MFBR Digital Services</p>
+        <p class="footer-brn">BRN: 202603065752 (RA0133423-W)</p>
+        <nav class="footer-links" aria-label="Legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="privacy-kids-play-lab.html">Kids Play Lab Privacy</a>
+          <a href="terms-kids-play-lab.html">Kids Play Lab Terms</a>
+        </nav>
+      </div>
+      <p class="footer-copy">&copy; <span class="year"></span> MFBR Digital Services. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    document.querySelectorAll('.year').forEach(function (el) { el.textContent = new Date().getFullYear(); });
+  </script>
+</body>
+</html>

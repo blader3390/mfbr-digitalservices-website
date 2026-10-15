@@ -443,6 +443,60 @@ address {
   font-size: 0.92rem;
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.footer-links a {
+  color: var(--primary-dark);
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.legal-article {
+  max-width: 760px;
+}
+
+.legal-article h1 {
+  margin: 0.35rem 0 0.5rem;
+}
+
+.legal-updated {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.legal-article h2 {
+  margin-top: 2rem;
+}
+
+.legal-article a {
+  color: var(--primary-dark);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.legal-article h3 {
+  margin: 1.35rem 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.legal-notice {
+  margin: 1.5rem 0 0.5rem;
+  padding: 1rem 1.15rem;
+  border-radius: 16px;
+  background: #eff6ff;
+  border: 1px solid #dbeafe;
+}
+
+.legal-notice p {
+  margin: 0;
+}
+
 @media (min-width: 760px) {
   .site-nav {
     display: flex;
